@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: brown;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  height: 100vh;
+  width: 100%;
+  background-image: url("hintergrundbild.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* body {
+  color: brown;
+  background-image: -moz-element();
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(
+    circle,
+    #14c422,
+    #63a300,
+    #778300,
+    #796600,
+    #6f4b0b
+  );
+} */
+
+/* 
+#start {
+  font-size: xx-large;
+  display: flex;
+  display: block;
+  background-color: rgb(204, 228, 208);
+  background-size: 0cqmin;
+  padding: 10px 10px 90px 10px;
+} */
+
+/* #tabs {
+  font-size: 24px;
+  display: flex;
+  
+  background-color: rgb(223, 80, 123);
+  background-size: 0cqmin;
+  padding: 10px 10px 90px 10px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px;
+
+
+} */
+.learn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.learn h1 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  color: #000;
+}
+section {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+}
+header,
+footer,
+.exam {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#start {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  color: #000;
+}
+
+.tabs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  background-color: rgb(247, 246, 246);
+  height: 20vh;
+}
+
+.tabs button {
+  background-color: rgb(245, 130, 245);
+  color: rgb(7, 0, 0);
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 10px 50px; /* Innenabstände anpassen */
+  font-size: 20px; /* Schriftgröße in den Buttons */
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px; /* Breite des Buttons */
+  height: 100px; /* Höhe des Buttons */
+}
+
+
+.tabs button:hover {
+  background-color: rgb(243, 168, 209); /* Hintergrundfarbe bei Hover */
+}
+#frage button {
+  display: none;
+  justify-content: space-around;
+}
+#qs button {
+  font-size: 20px;
+  padding: 9px 9px;
+  background-color: rgb(249, 185, 242);
+  border-radius: 10px;
+  cursor: pointer;
+}
+#qs {
+  display: none;
+}
+#fortschritt {
+  width: 0%;
+  height: 50px;
+  background-color: rgb(200, 255, 0);
+}
+
+.progress {
+  width: 100%;
+  height: 54px;
+  /* border: 2px solid #000; */
+}
+#question {
+  width: 100%;
+  font-size: 40px;
+  cursor: pointer;
+}
+#options {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+#options button {
+  font-size: 20px;
+  padding: 5px;
+}
+#exam {
+  display: none;
+}
